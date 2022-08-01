@@ -1,0 +1,159 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
+        </script>
+
+<div class="container">
+  <header class="header">
+    <h1 id="title" class="text-center">
+      <strong>Bank X Know Your Customer Survey</strong></h1>
+    <p id="description" class="description-text=center">
+      Thank you for taking your time to help us know you better as a customer</p>
+  </header>
+  <form id="survey-form">
+    <label id="name-label" for="name">Name</label>
+    <input
+        type="text"
+        name="name"
+        id="name"
+        placeholder="Enter your complete name"
+        class="form-control"
+        required
+         />
+  <div class="form-group">
+         <label id="email-label" for="email">Email</label>
+      <input type="email" name="email" id="email" class="form-control" placeholder="Enter your Email" required
+      />
+    </div>
+    <div class="form-group">
+      <label id="number-label" for="number">Age<span class="clue">(optional)</span> </label>
+       <input
+         type="number" 
+         name="age"
+         id="number"     
+         max="99"
+         min="10"
+         class="form-control"
+         placeholder="How old are you?"
+        />
+        </div>
+       <div class="form-group">
+         <p>Which option describe your current employment status?</p>
+         <select id="dropdown" name="role" class="form-control" required>
+           <option disabled selected value>Select your current employment status</option>
+           <option value="Full-time">Full-time emloyment</option>
+           <option value="part-time">Part-time employment</option>
+           <option value="self">
+             Self-employment</option>
+           <option value="unemployedlooking">Unemployed (looking for work)</option>
+           <option value="unemployednotlooking">Unemployed (not looking for work)</option>
+           <option value="student"> Student</option>
+           <option value="others">
+             Others</option>
+          </select>
+           </div>
+           <div class="form-group">
+             <p>Would you recommend Bank X to your friends, parents, and colleagues?</p>
+            <label>
+        <input
+          name="recommend"
+          value="Yes"
+          type="radio"
+          class="input-radio"
+          checked
+        />Yes</label>
+             <label>
+               <input 
+                  name="recommend"
+                  value="No"
+                  type="radio"
+                  class="input-radio"/>No</label>
+             <label>
+               <input
+                      name="recommend"
+                      value="maybe"
+                      type="radio"
+                      class="input-radio"/>Maybe</label>
+             </div>
+        <div class="form-group">
+          <p>What features of the Bank X you think suits your best interest?</p>
+          <label>
+             <input
+                    name="best-features"
+                    value="customer-service"
+                    type="checkbox"
+                    class="input-checkbox"/>Best customer service</label>
+          <label>
+             <input
+                    name="best-features"
+                    value="branch-location"
+                    type="checkbox"
+                    class="input-checkbox"/>Convenient branch locations</label>
+        <label>
+             <input
+                    name="best-features"
+                    value="low-fees"
+                    type="checkbox"
+                    class="input-checkbox"/>Low account fees </label>
+          <label>
+             <input
+                name="best-features"
+              value="branch-location"
+                 type="checkbox"
+        class="input-checkbox"/>Convenient branch locations</label>
+             <label>
+             <input
+                    name="best-features"
+                    value="ATM"
+                    type="checkbox"
+                    class="input-checkbox"/>Convenient ATMs</label>
+          <label>
+             <input
+                    name="best-features"
+                    value="loans"
+                    type="checkbox"
+                    class="input-checkbox"/>Loans</label>
+          
+          <label>
+             <input
+                    name="best-features"
+                    value="interest-rates"
+                    type="checkbox"
+                    class="input-checkbox">Competetive Interest Rates</label>
+      </div>
+      <div class="form-group">
+      <p>Would you like to receive emails for promotions and updates?</p>
+            <label>
+        <input
+          name="emailpromotions"
+          value="Yes"
+          type="radio"
+          class="input-radio"
+          checked
+        />Yes, I'd like to</label>
+             <label>
+               <input 
+                  name="emailpromotions"
+                  value="No"
+                  type="radio"
+                  class="input-radio"/>No, I don't want to 
+      </label>
+             </div>
+    <div class="form-group">
+        <p>Any comments or suggestions regarding our bank services...<span class="clue">(optional)</span>
+          <textarea
+               value="suggestion-box"
+               type="text"
+               class="input-textarea"
+               placeholder="Type  your comments and suggestions"></textarea>
+          </div>  
+    <div class="form-group">
+      <p>Are you finished? Click Submit</p>
+      <button id="submit" type="submit" class="submit-button">
+        Submit </button>
+          </div>
+     </form>
+  </div>
+             
+                             
+           
+    
+    

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+;
+
+:root {
+  --color-white: #fafaed;
+  --color-yellow: rgba(27, 27, 50, 0.8);
+}
+
+body {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: var(--color-white);
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.5rem;
+  line-height: 1.3;
+  color: #50bf4b;
+  
+}
+
+p {
+  font-size: 1.5rem;
+  color: green;
+}
+
+h1,
+p {
+  margin: 0, auto, 1rem, auto;
+}
+
+label {
+  display: flex;
+  align-items: left;
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+  color: green;
+  font-style: strong;
+}
+
+input,
+button,
+select {
+  margin: 2px;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+}
+
+textarea {
+  padding: 2rem;
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: inherit;
+  text-align: justify;
+}
+
+button {
+  border: solid;
+}
+
+.container {
+  width: 100%;
+  margin: 2rem auto auto auto;
+}
+
+@media (min-width: 500px) {
+  .container {max-width: 480px; 
+}
+}
+  @media (min-width: 800px) {
+    .container {
+    max-width: 700px;
+    }    
+}
+
+.header {
+  padding: 10px;
+  border-top: 4rem;
+  text-align: center;
+}
+
+#description {
+  font-style: italic;
+  font-size: 1rem;
+}
+
+.clue {
+  font-size: 0.8rem;
+  margin-left: 0.25cm;
+  margin-top: 0.15cm;
+}
+
+form {
+  background: yellow;
+  padding: 1rem 5rem;
+  border-radius: 2rem;
+  opacity: 0.9
+}
+@media (min-width: 400px) {
+   form   
+  {
+    padding: 2rem;
+  }
+}
+  
+}
+.form-group {
+  padding: 1.7rem;
+  margin: 0 auto 3rem auto;
+}
+.form-control {
+  display: block;
+  width: 100%;
+  height: 2rem;
+  padding-left: 0.5rem;
+  background-color: #fcffdf;
+  border: 2px solid #a8a851;
+  background-clip: padding-box;
+  border-radius: 0.5rem;
+  transition: border-color 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+.form-control:focus {
+  box-shadow: 20px 20px 50px 10px #ffffbf inset;
+  outline: 0;
+  border-color: green;
+}
+
+.input-radio,
+.input-checkbox{
+  display: inline-block;
+  min-height: 2rem;
+  min-height: 1.7rem;
+  margin-right: 1.1rem;
+}
+
+.input-textarea {
+  resize: vertical;
+  min-height: 150px;
+  width: 100%;
+  padding: 0 0;
+  border-color: green;
+  border-width: 3px;
+  transition: border-color 1s ease-in-out, box-shadow 1s ease-in-out;
+}
+.input-textarea:focus {
+  outline: 0;
+  border-color: green;
+}
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #95f5ac;
+  color: green;
+  border-radius: 2px;
+  cursor: pointer;
+  border-radius: 15px;
+  border-color: green;
+}
+
+
+body {
+  background-image: linear-gradient(yellow, green, yellow, green);
+}
